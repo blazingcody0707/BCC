@@ -10,7 +10,7 @@ on:
       rootfs_url:
         description: "自定义 Arch Linux bootstrap URL（可留空使用默认）"
         required: false
-        default: ""
+        default: "https://mirrors.edge.kernel.org/archlinux/iso/2026.06.01/archlinux-bootstrap-x86_64.tar.zst"
   schedule:
     # 北京时间每周日 00:00，对应 UTC 周六 16:00
     - cron: "0 16 * * 6"
