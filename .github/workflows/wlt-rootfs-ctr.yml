@@ -23,7 +23,7 @@ jobs:
       - name: Setting chroot
         run: |
           cd /tmp
-          git clone https://github.com/Waim908/BCC BCC
+          git clone https://github.com/blazingcody0707/BCC.git BCC
           aria2c -s16 -x16 https://github.com/blazingcody0707/BCC/releases/download/archlinux-latest/archlinux-latest.tar.xz
           sudo tar xf archlinux-latest.tar.xz
           sudo cp /tmp/BCC/Wlt-bcc.sh /tmp/archlinux/tmp
