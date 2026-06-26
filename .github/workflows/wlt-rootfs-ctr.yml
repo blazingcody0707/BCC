@@ -25,7 +25,7 @@ jobs:
           cd /tmp
           git clone https://github.com/blazingcody0707/BCC.git BCC
           # sudo apt update
-          aria2c -s16 -x16 https://github.com/Waim908/BCC/releases/download/archlinux-latest/archlinux-latest.tar.xz
+          aria2c -s16 -x16 https://github.com/blazingcody0707/BCC/releases/download/archlinux-latest/archlinux-latest.tar.xz
           tar xf archlinux-latest.tar.xz
           # sudo apt install debootstrap -y
           cp /tmp/BCC/Wlt-bcc.sh /tmp
