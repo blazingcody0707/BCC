@@ -5,7 +5,7 @@ Base-Chroot-Container 基础Chroot容器
 
 ***UTC+8***
 
-- Latest Update: 2026-06-26 14:20:50 CST
+- Latest Update: 2026-06-26 14:29:32 CST
 
 - [Download Archlinux Rootfs](https://github.com/Waim908/BCC/releases/download/archlinux-latest/archlinux-latest.tar.xz)
 
